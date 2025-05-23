@@ -29,11 +29,11 @@ match valor:
         n = input('Digite algo: ')
         print('Isto é uma ', type(n))
         # se é possivel converter para numero com int()
-        print('Converte para número?', n.isnumeric())
+        print('Converte para número? ', n.isnumeric())
 
     case 4:
         print('*OPERADORES ARITMÉTICOS*')
-        n = int(input('Digite um número:'))
+        n = int(input('Digite um número: '))
         ante = n - 1
         suce = n + 1
         dobro = n * 2
@@ -44,10 +44,10 @@ match valor:
 
     case 5:
         print('*CALCULO MÉDIA*')
-        nota1 = int(input('Qual a sua primeira nota?'))
-        nota2 = int(input('Qual a sua segunda nota?'))
+        nota1 = int(input('Qual a sua primeira nota? '))
+        nota2 = int(input('Qual a sua segunda nota? '))
         media = (nota1 + nota2) / 2
-        print('Sua media é {:.3}'.format('2.555555555'))
+        print('Sua media é {:.3}'.format(media))
 
     case 6:
         print('*TABUADA*')
